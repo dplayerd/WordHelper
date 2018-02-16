@@ -42,9 +42,6 @@ namespace Moudou.WordHelper
 
             foreach (string arg in args)
             {
-                Console.WriteLine(arg);
-
-
                 if (isReadWordPath)
                 {
                     wordPath = arg;
