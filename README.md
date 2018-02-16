@@ -1,8 +1,14 @@
 # WordHelper
+
 A command tool for inject Custom Properties into word.
 
 Microsoft Word Custom Properties is not easy to edit. Like [https://www.howtogeek.com/217329/how-to-create-custom-properties-in-a-word-document/]. I create this tool that help me edit it faster.
 
+## Environment
+    C# 
+    .NET Framework 4.0 or higher
+    JSON.net
+    OpenXML
 
 ## How to use
 1. Compile
