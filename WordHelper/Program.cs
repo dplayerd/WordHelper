@@ -79,10 +79,7 @@ namespace Moudou.WordHelper
         private static void Fill(string wordPath, string propertyJsonPath)
         {
             string fileName = wordPath;
-            string fileContent = System.IO.File.ReadAllText(propertyJsonPath);
-
-
-            CustomProperty[] cpList = JsonConvert.DeserializeObject<CustomProperty[]>(fileContent);
+            CustomProperty[] cpList = JsonReader.readAllJSON(propertyJsonPath);
 
 
             WordPropertyHelper.SetCustomProperty(fileName, cpList.ToList());
