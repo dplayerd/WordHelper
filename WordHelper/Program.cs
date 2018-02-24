@@ -1,8 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using WordHelperCore.Controller;
+using WordHelperCore.DTO;
 
 namespace Moudou.WordHelper
 {
@@ -78,14 +79,17 @@ namespace Moudou.WordHelper
         /// <param name="propertyJsonPath"> properties </param>
         private static void Fill(string wordPath, string propertyJsonPath)
         {
-            CustomProperty[] cpList = JsonReader.readAllJSON(propertyJsonPath);
-            string[] filePathList = WordPathReader.getWordPaths(wordPath);
+            new WordHelpController().fillProperties(new InputDTO() { JsonPath = propertyJsonPath, WordPath = wordPath });
 
 
-            foreach(string fileName in filePathList)
-            { 
-                WordPropertyHelper.setCustomProperty(fileName, cpList.ToList());
-            }
+            //CustomProperty[] cpList = JsonReader.readAllJSON(propertyJsonPath);
+            //string[] filePathList = WordPathReader.getWordPaths(wordPath);
+
+
+            //foreach(string fileName in filePathList)
+            //{ 
+            //    WordPropertyHelper.setCustomProperty(fileName, cpList.ToList());
+            //}
         }
     }
 }

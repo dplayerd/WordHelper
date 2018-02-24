@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using WordHelperCore.Enum;
+using WordHelperCore.VO;
 
-namespace Moudou.WordHelper
+namespace WordHelperCore.Helper
 {
     internal class JsonReader
     {

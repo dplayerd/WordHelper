@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordHelper", "WordHelper\WordHelper.csproj", "{A4464B5F-07E8-476C-A585-880FD4A097BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordHelperCore", "WordHelperCore\WordHelperCore.csproj", "{69C6DDC5-412C-491B-9615-6E8DA88132E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4464B5F-07E8-476C-A585-880FD4A097BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4464B5F-07E8-476C-A585-880FD4A097BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4464B5F-07E8-476C-A585-880FD4A097BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C6DDC5-412C-491B-9615-6E8DA88132E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C6DDC5-412C-491B-9615-6E8DA88132E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C6DDC5-412C-491B-9615-6E8DA88132E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C6DDC5-412C-491B-9615-6E8DA88132E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

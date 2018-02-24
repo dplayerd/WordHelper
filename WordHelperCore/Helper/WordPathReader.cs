@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using WordHelperCore.Enum;
 
-namespace Moudou.WordHelper
+namespace WordHelperCore.Helper
 {
     /// <summary> parse path into absolute paths </summary>
     internal class WordPathReader

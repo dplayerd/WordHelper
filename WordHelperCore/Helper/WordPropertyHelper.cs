@@ -1,14 +1,14 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.CustomProperties;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.VariantTypes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO;
+using WordHelperCore.Enum;
+using WordHelperCore.VO;
 
-using DocumentFormat.OpenXml.CustomProperties;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.VariantTypes;
-
-namespace Moudou.WordHelper
+namespace WordHelperCore.Helper
 {
     // Ref Link  https://msdn.microsoft.com/en-us/library/office/hh674468.aspx
 

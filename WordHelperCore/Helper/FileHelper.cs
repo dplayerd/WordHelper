@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using WordHelperCore.Enum;
 
-namespace Moudou.WordHelper
+namespace WordHelperCore.Helper
 {
     internal class FileHelper
     {
@@ -16,7 +17,7 @@ namespace Moudou.WordHelper
                     "*.json" :
                     "*.docx";
 
-            
+
             List<string> retList = new List<string>();
 
 
@@ -40,9 +41,10 @@ namespace Moudou.WordHelper
             {
 
             }
-            
-            
+
+
             return retList.ToArray();
         }
     }
+
 }
