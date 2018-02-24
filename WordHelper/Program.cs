@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WordHelperCore.Controller;
-using WordHelperCore.DTO;
+using Moudou.WordHelperCore.Controller;
+using Moudou.WordHelperCore.DTO;
 
 namespace Moudou.WordHelper
 {

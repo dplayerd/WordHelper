@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WordHelperCore.Enum;
+using Moudou.WordHelperCore.Enum;
 
-namespace WordHelperCore.VO
+namespace Moudou.WordHelperCore.VO
 {
     /// <summary> Property container </summary>
     internal class CustomProperty

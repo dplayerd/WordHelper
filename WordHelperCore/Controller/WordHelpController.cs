@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WordHelperCore.DTO;
-using WordHelperCore.Helper;
-using WordHelperCore.VO;
+using Moudou.WordHelperCore.DTO;
+using Moudou.WordHelperCore.Helper;
+using Moudou.WordHelperCore.VO;
 
-namespace WordHelperCore.Controller
+namespace Moudou.WordHelperCore.Controller
 {
     public class WordHelpController
     {

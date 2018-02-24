@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WordHelperCore.Enum
+namespace Moudou.WordHelperCore.Enum
 {
     internal enum FileType
     {

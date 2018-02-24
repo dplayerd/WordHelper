@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WordHelperCore.Enum;
-using WordHelperCore.VO;
+using Moudou.WordHelperCore.Enum;
+using Moudou.WordHelperCore.VO;
 
-namespace WordHelperCore.Helper
+namespace Moudou.WordHelperCore.Helper
 {
     // Ref Link  https://msdn.microsoft.com/en-us/library/office/hh674468.aspx
 

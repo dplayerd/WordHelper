@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using WordHelperCore.Enum;
+using Moudou.WordHelperCore.Enum;
 
-namespace WordHelperCore.Helper
+namespace Moudou.WordHelperCore.Helper
 {
     internal class FileHelper
     {

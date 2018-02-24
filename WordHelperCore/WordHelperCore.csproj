@@ -7,7 +7,7 @@
     <ProjectGuid>{69C6DDC5-412C-491B-9615-6E8DA88132E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WordHelperCore</RootNamespace>
+    <RootNamespace>Moudou.WordHelperCore</RootNamespace>
     <AssemblyName>WordHelperCore</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

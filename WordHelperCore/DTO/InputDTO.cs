@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WordHelperCore.DTO
+namespace Moudou.WordHelperCore.DTO
 {
     /// <summary> 輸入用物件 </summary>
     public class InputDTO
