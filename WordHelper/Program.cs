@@ -78,11 +78,14 @@ namespace Moudou.WordHelper
         /// <param name="propertyJsonPath"> properties </param>
         private static void Fill(string wordPath, string propertyJsonPath)
         {
-            string fileName = wordPath;
             CustomProperty[] cpList = JsonReader.readAllJSON(propertyJsonPath);
+            string[] filePathList = WordPathReader.getWordPaths(wordPath);
 
 
-            WordPropertyHelper.SetCustomProperty(fileName, cpList.ToList());
+            foreach(string fileName in filePathList)
+            { 
+                WordPropertyHelper.setCustomProperty(fileName, cpList.ToList());
+            }
         }
     }
 }

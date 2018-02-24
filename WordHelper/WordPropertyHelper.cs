@@ -37,7 +37,7 @@ namespace Moudou.WordHelper
         /// <summary> Write propery list into word file </summary>
         /// <param name="fileName"> file path and name (ex. d:\doc1.docx) </param>
         /// <param name="list"> Property list </param>
-        internal static void SetCustomProperty(string fileName, List<CustomProperty> list)
+        internal static void setCustomProperty(string fileName, List<CustomProperty> list)
         {
             List<CustomDocumentProperty> willFillPropertyList = new List<CustomDocumentProperty>();
 
